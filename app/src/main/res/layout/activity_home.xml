@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <EditText
+        android:id="@+id/et_nomeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o nome do aluno"/>
+    <EditText
+        android:id="@+id/et_moradaAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe a morada do aluno"/>
+    <EditText
+        android:id="@+id/et_telefoneAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o telefone do aluno"/>
+    <EditText
+        android:id="@+id/et_emailAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o email do aluno"/>
+        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registar Aluno"/>
+        <Button
+            android:id="@+id/display_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mostrar"/>
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar Aluno"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+        
+</LinearLayout>
